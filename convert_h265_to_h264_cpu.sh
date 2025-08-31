@@ -25,6 +25,6 @@ ffmpeg -i "$1" \
   -c:v libx264 -preset veryslow -crf 23 \
   -c:a copy \
   -c:s copy \
-  -map 0
+  -map 0 \
   "$output"
 
